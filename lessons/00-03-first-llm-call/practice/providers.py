@@ -59,7 +59,7 @@ class Provider:
 _local = os.getenv("MODEL_LOCAL", "qwen3.5:4b")
 _fast = os.getenv("MODEL_FAST", "qwen/qwen3.7-flash")
 _flagship = os.getenv("MODEL_FLAGSHIP", "anthropic/claude-sonnet-5.5")
-_gemini = os.getenv("MODEL_GEMINI", "gemini-3.8-flash")
+_gemini = os.getenv("MODEL_GEMINI", "gemini-3.1-flash-lite")
 
 PROVIDERS: dict[str, Provider] = {
     "local": Provider("Ollama · локально", OLLAMA_URL, None, _local),

@@ -35,7 +35,7 @@ errors: dict[str, str] = {}
 for p in providers:
     with console.status(f"Спрашиваю {p.label} ({p.model})..."):
         try:
-            answers.append(ask(p, messages, max_tokens=4000))
+            answers.append(ask(p, messages, max_tokens=10000))
         except Exception as e:  # noqa: BLE001 — показываем ошибку и идём к следующей модели
             errors[p.label] = explain_error(p, e)
 

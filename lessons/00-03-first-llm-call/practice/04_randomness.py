@@ -28,7 +28,7 @@ for temperature in (1.0, 0.0):
     results = []
     for i in range(1, args.runs + 1):
         try:
-            a = ask(provider, [{"role": "user", "content": PROMPT}], temperature=temperature, max_tokens=2000)
+            a = ask(provider, [{"role": "user", "content": PROMPT}], temperature=temperature, max_tokens=100000)
         except Exception as e:  # noqa: BLE001 — учебный скрипт
             print("❌", explain_error(provider, e))
             raise SystemExit(1) from e
