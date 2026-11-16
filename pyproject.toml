@@ -17,3 +17,9 @@ dev = [
     "ipykernel>=7.4.0",
     "jupyterlab>=4.6.6",
 ]
+docs = [
+    "mkdocs-gen-files>=0.5",
+    "mkdocs-literate-nav>=0.6",
+    "mkdocs-material>=9.7",
+    "properdocs>=1.6.7",
+]

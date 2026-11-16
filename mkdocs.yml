@@ -1,0 +1,89 @@
+# Сайт-документация курса: COURSE_PLAN.md + всё из lessons/.
+#
+# Запуск (живой сервер с автообновлением):
+#   uv run --group docs mkdocs serve
+# и открыть http://127.0.0.1:8000
+#
+# Страницы и меню генерирует docs-site/gen_pages.py при каждой сборке,
+# поэтому новые уроки и файлы появляются в меню сами.
+
+site_name: AI Engineering с нуля
+site_description: План курса, уроки, практика и код
+docs_dir: docs-site/static
+
+watch:
+  - lessons
+  - COURSE_PLAN.md
+  - docs-site/gen_pages.py
+
+theme:
+  name: material
+  language: ru
+  icon:
+    logo: material/brain
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Светлая тема
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Как в системе
+  features:
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+hooks:
+  - docs-site/hooks.py
+
+plugins:
+  - search:
+      lang: [ru, en]
+  - gen-files:
+      scripts:
+        - docs-site/gen_pages.py
+  - literate-nav:
+      nav_file: SUMMARY.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde:
+      subscript: false

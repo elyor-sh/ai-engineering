@@ -29,6 +29,7 @@ def xor_network(inputs: np.ndarray, *, use_relu: bool = True) -> np.ndarray:
     weights = np.array([[1.0, 1.0], [1.0, 1.0]])  # строки — скрытые нейроны
     bias = np.array([0.0, -1.0])
     hidden = inputs @ weights.T + bias  # строки inputs — разные примеры
+    print(hidden)
     if use_relu:
         hidden = np.maximum(0, hidden)
     return hidden @ np.array([1.0, -2.0])  # на выходе активации нет, смещение равно нулю
@@ -37,7 +38,7 @@ def xor_network(inputs: np.ndarray, *, use_relu: bool = True) -> np.ndarray:
 def main() -> None:
     print("── 1. Тот же «салатный» нейрон из урока 1.1, но со смещением и ReLU ──")
     weights = [0.1, 0.3, 0.8]
-    bias = -5.0
+    bias = -5
     for name, fruit in {"яблоко": [6, 5, 8], "банан": [8, 1, 1]}.items():
         before_bias = float(np.dot(fruit, weights))
         print(f"  {name}: сумма {before_bias:.1f} → со смещением {before_bias + bias:.1f} → после ReLU {neuron(fruit, weights, bias):.1f}")
