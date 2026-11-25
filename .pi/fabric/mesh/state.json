@@ -9,7 +9,7 @@
         "name": "AE-1",
         "label": "AE-1",
         "kind": "peer",
-        "status": "running",
+        "status": "idle",
         "runner": "pi",
         "transport": "host",
         "cwd": "/Users/elyorsh/Desktop/projects/ai-engineering",
@@ -17,12 +17,12 @@
         "model": "openai-codex/gpt-6.1-sol",
         "thinking": "xhigh",
         "startedAt": 1794480718324,
-        "updatedAt": 1794831363457,
+        "updatedAt": 1795519884940,
         "pendingMessages": false,
         "local": false
       },
-      "version": 15580,
-      "updatedAt": 1794831363458,
+      "version": 57797,
+      "updatedAt": 1795519885366,
       "updatedBy": {
         "id": "session:01a1b16d-152c-7459-b384-44add4b06aea",
         "name": "main",
@@ -40,7 +40,7 @@
         "ownerHostId": "session:01a1b16d-152c-7459-b384-44add4b06aea",
         "ownerIdentityId": "session:01a1b16d-152c-7459-b384-44add4b06aea",
         "name": "main",
-        "status": "running",
+        "status": "idle",
         "runner": "pi",
         "transport": "host",
         "capabilities": [
@@ -53,14 +53,14 @@
         "model": "openai-codex/gpt-6.1-sol",
         "thinking": "xhigh",
         "startedAt": 1794480718324,
-        "updatedAt": 1794831363457,
+        "updatedAt": 1795519884942,
         "pendingMessages": false,
         "controlProtocol": "v1",
         "ownerIncarnation": "876a9fb4-147d-4231-ab0d-e84032e78771",
         "label": "AE-1"
       },
-      "version": 15581,
-      "updatedAt": 1794831363460,
+      "version": 57798,
+      "updatedAt": 1795519885448,
       "updatedBy": {
         "id": "session:01a1b16d-152c-7459-b384-44add4b06aea",
         "name": "main",
@@ -81,11 +81,11 @@
           "sessionId": "01a1b16d-152c-7459-b384-44add4b06aea"
         },
         "startedAt": 1794480718325,
-        "updatedAt": 1794831363461,
-        "expiresAt": 1794831378461
+        "updatedAt": 1795519885453,
+        "expiresAt": 1795519900453
       },
-      "version": 15582,
-      "updatedAt": 1794831363462,
+      "version": 57799,
+      "updatedAt": 1795519885460,
       "updatedBy": {
         "id": "session:01a1b16d-152c-7459-b384-44add4b06aea",
         "name": "main",
@@ -97,106 +97,15 @@
       "key": "topology/peer-seq/3",
       "value": {
         "format": 1,
-        "next": 2
+        "next": 3
       },
-      "version": 5,
-      "updatedAt": 1794828480256,
+      "version": 6,
+      "updatedAt": 1795598387430,
       "updatedBy": {
-        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
         "name": "main",
         "kind": "main",
-        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e"
-      }
-    },
-    "sessions/01a1e419-2645-7180-9f9c-295a91155f7e": {
-      "key": "sessions/01a1e419-2645-7180-9f9c-295a91155f7e",
-      "value": {
-        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "name": "AE-2",
-        "label": "AE-2",
-        "kind": "peer",
-        "status": "idle",
-        "runner": "pi",
-        "transport": "host",
-        "cwd": "/Users/elyorsh/Desktop/projects/ai-engineering",
-        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e",
-        "model": "anthropic/claude-opus-5-5",
-        "thinking": "xhigh",
-        "startedAt": 1794828480224,
-        "updatedAt": 1794831360595,
-        "pendingMessages": false,
-        "local": false
-      },
-      "version": 45588,
-      "updatedAt": 1794831360597,
-      "updatedBy": {
-        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "name": "main",
-        "kind": "main",
-        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e"
-      }
-    },
-    "topology/participants/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": {
-      "key": "topology/participants/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020",
-      "value": {
-        "format": 1,
-        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "kind": "root",
-        "rootId": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "ownerHostId": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "ownerIdentityId": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "name": "main",
-        "status": "idle",
-        "runner": "pi",
-        "transport": "host",
-        "capabilities": [
-          "steer",
-          "followUp",
-          "fabric"
-        ],
-        "cwd": "/Users/elyorsh/Desktop/projects/ai-engineering",
-        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e",
-        "model": "anthropic/claude-opus-5-5",
-        "thinking": "xhigh",
-        "startedAt": 1794828480224,
-        "updatedAt": 1794831360595,
-        "pendingMessages": false,
-        "controlProtocol": "v1",
-        "ownerIncarnation": "ebe05cde-d790-4df1-b288-1ee5f603e091",
-        "label": "AE-2"
-      },
-      "version": 45589,
-      "updatedAt": 1794831360599,
-      "updatedBy": {
-        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "name": "main",
-        "kind": "main",
-        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e"
-      }
-    },
-    "topology/hosts/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": {
-      "key": "topology/hosts/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020",
-      "value": {
-        "format": 1,
-        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "rootId": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "identity": {
-          "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-          "name": "main",
-          "kind": "main",
-          "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e"
-        },
-        "startedAt": 1794828480224,
-        "updatedAt": 1794831360601,
-        "expiresAt": 1794831375601
-      },
-      "version": 45590,
-      "updatedAt": 1794831360602,
-      "updatedBy": {
-        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
-        "name": "main",
-        "kind": "main",
-        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e"
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde"
       }
     },
     "topology/control-seen/9c003ab5d5216edb7ea9de1f4f8ff736066972086c32715301f8ebea607103a9": {
@@ -244,19 +153,173 @@
         "kind": "main",
         "sessionId": "01a1b16d-152c-7459-b384-44add4b06aea"
       }
+    },
+    "topology/tombstones/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": {
+      "key": "topology/tombstones/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020",
+      "value": {
+        "format": 1,
+        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
+        "kind": "root",
+        "rootId": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
+        "ownerHostId": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
+        "ownerIdentityId": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
+        "ownerIncarnation": "ebe05cde-d790-4df1-b288-1ee5f603e091",
+        "name": "main",
+        "label": "AE-2",
+        "cwd": "/Users/elyorsh/Desktop/projects/ai-engineering",
+        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e",
+        "status": "stopped",
+        "startedAt": 1794828480224,
+        "lastSeenAt": 1795427614225
+      },
+      "version": 254908,
+      "updatedAt": 1795427614225,
+      "updatedBy": {
+        "id": "session:01a1e419-2645-7180-9f9c-295a91155f7e",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a1e419-2645-7180-9f9c-295a91155f7e"
+      }
+    },
+    "topology/tombstones/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c": {
+      "key": "topology/tombstones/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c",
+      "value": {
+        "format": 1,
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "kind": "root",
+        "rootId": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "ownerHostId": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "ownerIdentityId": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "ownerIncarnation": "cd474179-6c96-4732-8409-e66580bcae78",
+        "name": "main",
+        "label": "AE-3",
+        "cwd": "/Users/elyorsh/Desktop/projects/ai-engineering",
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "status": "stopped",
+        "startedAt": 1795598721639,
+        "lastSeenAt": 1795598837503
+      },
+      "version": 278550,
+      "updatedAt": 1795598837504,
+      "updatedBy": {
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde"
+      }
+    },
+    "sessions/01a211ff-8942-73ee-87bc-5d0be0ec6bde": {
+      "key": "sessions/01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+      "value": {
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "name": "AE-3",
+        "label": "AE-3",
+        "kind": "peer",
+        "status": "running",
+        "runner": "pi",
+        "transport": "host",
+        "cwd": "/Users/elyorsh/Desktop/projects/ai-engineering",
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "model": "anthropic/claude-sonnet-5-5",
+        "thinking": "medium",
+        "startedAt": 1795598923333,
+        "updatedAt": 1795598923362,
+        "pendingMessages": false,
+        "local": false
+      },
+      "version": 278699,
+      "updatedAt": 1795598923371,
+      "updatedBy": {
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde"
+      }
+    },
+    "topology/participants/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c": {
+      "key": "topology/participants/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c",
+      "value": {
+        "format": 1,
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "kind": "root",
+        "rootId": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "ownerHostId": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "ownerIdentityId": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "name": "main",
+        "status": "running",
+        "runner": "pi",
+        "transport": "host",
+        "capabilities": [
+          "steer",
+          "followUp",
+          "fabric"
+        ],
+        "cwd": "/Users/elyorsh/Desktop/projects/ai-engineering",
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "model": "anthropic/claude-sonnet-5-5",
+        "thinking": "medium",
+        "startedAt": 1795598923333,
+        "updatedAt": 1795598923362,
+        "pendingMessages": false,
+        "controlProtocol": "v1",
+        "ownerIncarnation": "8da8f816-f981-4708-b4ab-665e02711d5c",
+        "label": "AE-3"
+      },
+      "version": 278700,
+      "updatedAt": 1795598923372,
+      "updatedBy": {
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde"
+      }
+    },
+    "topology/hosts/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c": {
+      "key": "topology/hosts/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c",
+      "value": {
+        "format": 1,
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "rootId": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "identity": {
+          "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+          "name": "main",
+          "kind": "main",
+          "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde"
+        },
+        "startedAt": 1795598923334,
+        "updatedAt": 1795598923373,
+        "expiresAt": 1795598938373
+      },
+      "version": 278701,
+      "updatedAt": 1795598923373,
+      "updatedBy": {
+        "id": "session:01a211ff-8942-73ee-87bc-5d0be0ec6bde",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a211ff-8942-73ee-87bc-5d0be0ec6bde"
+      }
     }
   },
-  "highWater": 48480,
+  "highWater": 278739,
   "versions": {
-    "sessions/01a1b16d-152c-7459-b384-44add4b06aea": 15580,
-    "topology/participants/3699f609bc3885fb5a62c2b91ba691610ed642505e5eaa2cb06c8e6d9da503fc": 15581,
-    "topology/hosts/3699f609bc3885fb5a62c2b91ba691610ed642505e5eaa2cb06c8e6d9da503fc": 15582,
-    "topology/peer-seq/3": 5,
-    "sessions/01a1e419-2645-7180-9f9c-295a91155f7e": 45588,
-    "topology/participants/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": 45589,
-    "topology/hosts/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": 45590,
+    "sessions/01a1b16d-152c-7459-b384-44add4b06aea": 57797,
+    "topology/participants/3699f609bc3885fb5a62c2b91ba691610ed642505e5eaa2cb06c8e6d9da503fc": 57798,
+    "topology/hosts/3699f609bc3885fb5a62c2b91ba691610ed642505e5eaa2cb06c8e6d9da503fc": 57799,
+    "topology/peer-seq/3": 6,
+    "sessions/01a1e419-2645-7180-9f9c-295a91155f7e": 79993,
+    "topology/participants/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": 79995,
+    "topology/hosts/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": 79996,
     "topology/control-seen/9c003ab5d5216edb7ea9de1f4f8ff736066972086c32715301f8ebea607103a9": 45169,
-    "topology/control-seen/97ca40b4399d1f52ec67f8dfa494b33aca6f219caa43baaa1786e51834a8cec4": 45402
+    "topology/control-seen/97ca40b4399d1f52ec67f8dfa494b33aca6f219caa43baaa1786e51834a8cec4": 45402,
+    "topology/tombstones/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020": 254908,
+    "sessions/01a211ff-8942-73ee-87bc-5d0be0ec6bde": 278699,
+    "topology/participants/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c": 278700,
+    "topology/hosts/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c": 278701,
+    "topology/tombstones/605d9b7ab7ffdcc025991a025c5d68d9835572955f06e91e10f652432a54e28c": 278550
   },
-  "tombstoneOrder": []
+  "tombstoneOrder": [
+    "sessions/01a1e419-2645-7180-9f9c-295a91155f7e",
+    "topology/participants/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020",
+    "topology/hosts/82bf685f3e22927bbf81055fd6f345905d7ab00b5d6fde9b5ffaf0cecaf1d020"
+  ]
 }
